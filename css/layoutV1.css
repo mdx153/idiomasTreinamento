@@ -11,7 +11,7 @@ html {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-    background-image: url("../assets/future.gif");
+    background-image: url("./assets/future.gif");
     background-repeat: no-repeat;
     background-size: cover;
     color: white;

@@ -13,10 +13,10 @@ function clean() {
 
 function changeTheme() {
 	const themes = [
-		'../assets/future.gif',
-		'../assets/game1.gif',
-		'../assets/78448.gif',
-		'../assets/sapo.gif']
+		'./assets/future.gif',
+		'./assets/game1.gif',
+		'./assets/78448.gif',
+		'./assets/sapo.gif']
 
 	const index = getTheme()
 	const novaPostion = (index + 1) % themes.length
@@ -43,10 +43,10 @@ function getTheme() {
 document.addEventListener('DOMContentLoaded', () => {
 	const index = getTheme()
 	const themes = [
-		'../assets/future.gif',
-		'../assets/game1.gif',
-		'../assets/78448.gif',
-		'../assets/sapo.gif']
+		'./assets/future.gif',
+		'./assets/game1.gif',
+		'./assets/78448.gif',
+		'./assets/sapo.gif']
 
 	document.body.style.backgroundImage = `url('${themes[index]}')`
 })
